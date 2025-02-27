@@ -1,0 +1,11 @@
+
+db:
+  host: "localhost"
+  user: "root"
+  password: "mansi1621"
+  database: "flask_auth"
+
+jwt_secret: "your_secret_key" 
+session:
+  max_logins: 2
+  expiry_minutes: 5
